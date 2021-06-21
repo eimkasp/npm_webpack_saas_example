@@ -1,1 +1,4 @@
-import "./style.scss";
+import "./main.scss";
+
+
+alert('labas');

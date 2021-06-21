@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
+  mode: 'development',
   plugins: [new MiniCssExtractPlugin()],
   module: {
     rules: [
