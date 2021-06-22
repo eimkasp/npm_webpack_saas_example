@@ -1,3 +1,4 @@
 
+# Itraukiame failus ir aplankus kuriuos nenorime itraukti i GIT istrija
 node_modules/*
 dist/*
